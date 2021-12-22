@@ -72,8 +72,7 @@ GEM
     ffi (1.15.3)
     globalid (0.5.2)
       activesupport (>= 5.0)
-    google-protobuf (3.17.3-universal-darwin)
-    google-protobuf (3.17.3-x86_64-linux)
+    google-protobuf (3.17.3)
     grpc-tools (1.38.0)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
@@ -89,13 +88,13 @@ GEM
     marcel (1.0.1)
     method_source (1.0.0)
     mini_mime (1.1.0)
+    mini_portile2 (2.6.1)
     minitest (5.14.4)
     msgpack (1.4.2)
     multipart-post (2.1.1)
     nio4r (2.5.8)
-    nokogiri (1.12.3-x86_64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.12.3-x86_64-linux)
+    nokogiri (1.12.3)
+      mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
     puma (3.12.6)
     racc (1.5.2)
@@ -156,6 +155,7 @@ GEM
     websocket-extensions (0.1.5)
 
 PLATFORMS
+  aarch64-linux
   x86_64-darwin-20
   x86_64-linux
 
